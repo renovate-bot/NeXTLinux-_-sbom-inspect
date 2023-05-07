@@ -1,0 +1,28 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out
+
+# dependencies
+/deps
+/**/node_modules
+/**/bower_components
+
+# misc
+npm-debug.log*
+testem.log
+
+# sbom-try
+.node_modules.sbom-try/
+bower.json.sbom-try
+package.json.sbom-try
+
+# electron
+electron-out/
+sbom-electron/resources*/nextlinux/
+sbom-electron/resources/capture-samples/
+
+# virtualenv
+/venv
